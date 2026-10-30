@@ -12,20 +12,6 @@ This independent practice project uses synthetic sales records to demonstrate a 
 
 The script keeps every rejected row and its issue flags for review. It does not silently discard exceptions. The sample assumes commas in Rand values are thousands separators and a period is the decimal separator.
 
-## Run it
-
-Use Python 3.10 or later. From this folder, install the listed dependency and run:
-
-```text
-python -m pip install -r requirements.txt
-python clean_sales_data.py
-```
-
-Generated files:
-
-- `outputs/sales_cleaned.csv`
-- `outputs/sales_exceptions.csv`
-- `outputs/quality_summary.json`
 
 ## Data note
 
